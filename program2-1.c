@@ -14,7 +14,7 @@ int main(void)
 	printf("\n\n");
 	for (i=0; i<6; i++)
 	{
-		printf("my_array[%d] = %d   ", my_array[i]); /* <-- A */
+		printf("my_array[%d] = %d \t", my_array[i]); /* <-- A */
 		printf("ptr + %d = %d\n", i, *(ptr + i));    /* <-- B */
 		
 	}
